@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const SERVER_URL = import.meta.env.VITE_SERVER_URL || 'http://localhost:3001';
+const SERVER_URL = import.meta.env.VITE_SERVER_URL || 'http://ec2-13-62-99-108.eu-north-1.compute.amazonaws.com';
 
 export const RoomJoin = ({ onJoinRoom }) => {
   const [roomId, setRoomId] = useState('');
